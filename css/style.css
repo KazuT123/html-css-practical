@@ -1,0 +1,128 @@
+body{
+  font-family:'Noto Sans Japanese';
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:80%;
+  margin:0 auto;
+  max-width:960px;
+}
+
+.theme h1{
+  border:solid 1px black;
+  padding:5px 15px;
+}
+
+nav ul{
+  list-style:none;
+  display:flex;
+}
+
+nav a{
+  color:black;
+  text-decoration:none;
+}
+
+nav li{
+  margin:0 10px;
+  font-size:34px;
+  font-weight:bold;
+}
+
+.main-photo img{
+  width:100%;
+}
+
+.about h2{
+  display:flex;
+  justify-content:center;
+  font-size:34px;
+
+}
+
+.content{
+  display:flex;
+  justify-content:space-between;
+  width:70%;
+  max-width:750px;
+  margin:0 auto;
+}
+
+.about h3{
+  font-size:24px;
+}
+
+.about img{
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+}
+
+.about li{
+  font-size:18px;
+}
+
+.profile-content{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+
+}
+
+.works h2{
+  display:flex;
+  justify-content:center;
+  font-size:34px;
+}
+
+.content2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; 
+  margin: 0 auto;
+  max-width: 960px;
+}
+.work-item {
+  width:25%;
+  text-align:center;
+  font-size:18px;
+}
+
+.work-item img{
+  width:100%;
+}
+
+footer{
+  display:flex;
+  justify-content: center;
+}
+
+footer p{
+  font-size:18px;
+}
+
+@media screen and (max-width:767px){
+  .content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .content2{
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+  }
+
+  .work-item{
+    width:100%;
+    
+  }
+
+}
