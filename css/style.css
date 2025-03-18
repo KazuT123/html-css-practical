@@ -11,9 +11,13 @@ header{
   max-width:960px;
 }
 
-.theme h1{
+.theme a{
   border:solid 1px black;
   padding:5px 15px;
+  color:black;
+  text-decoration:none;
+  font-size:34px;
+  font-weight:bold;
 }
 
 nav ul{
